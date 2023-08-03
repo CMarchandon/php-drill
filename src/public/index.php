@@ -9,6 +9,7 @@
 <body>
 <h1> Link to the differents exercices </h1>
 <a href="./variable_types.php">variable_types.php</a>
+<a href="./conditional.php">Conditional.php</a>
 
     
 </body>
