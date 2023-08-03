@@ -1,6 +1,6 @@
 # PHP playground
 
-![php logo](https://w7.pngwing.com/pngs/67/622/png-transparent-php-laravel-database-javascript-others-miscellaneous-blue-text.png)
+![php logo](https://www.freepnglogos.com/uploads/php-logo-png/php-logo-php-elephant-logo-vectors-download-5.png)
 
 # ABOUT
 
