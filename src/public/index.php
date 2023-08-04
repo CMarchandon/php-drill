@@ -7,10 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-<h1> Link to the differents exercices </h1>
-<a href="./variable_types.php">variable_types.php</a>
-<a href="./conditional.php">Conditional.php</a>
-
-    
+    <h1> Link to the differents exercices </h1>
+    <a href="./variable_types.php">variable_types.php</a>
+    <a href="./conditional.php">conditional.php</a>
+    <a href="./array.php">array.php</a>
+    <a href="./loops.php">loops.php</a>
+        
 </body>
 </html>
