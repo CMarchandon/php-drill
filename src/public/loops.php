@@ -58,8 +58,32 @@
     </br>
 
     <?php
-    $countries = array("United States", "Canada", "United Kingdom", "France", "Germany", "Australia", "Japan", "Brazil", "India", "China");
-    ?>
+// Create an associative array of countries with ISO codes as keys and country names as values
+$countries = array(
+    'US' => 'United States',
+    'CA' => 'Canada',
+    'GB' => 'United Kingdom',
+    'FR' => 'France',
+    'DE' => 'Germany',
+    'JP' => 'Japan',
+    'AU' => 'Australia',
+    'BR' => 'Brazil',
+    'IN' => 'India',
+    'CN' => 'China'
+);
+
+$selectHtml = '<select name="country">';
+foreach ($countries as $iso => $country) {
+    $selectHtml .= '<option value="' . $iso . '">' . $country . '</option>';
+}
+$selectHtml .= '</select>';
+
+echo '<form>';
+echo $selectHtml;
+echo '<input type="submit" value="Submit">';
+echo '</form>';
+?>
+
 
 
 
